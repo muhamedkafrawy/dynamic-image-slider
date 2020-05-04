@@ -7,13 +7,13 @@ var totalSlides = slides.length;
 var index = 0;
 // when clicking on the next and prev buttons
 nextSlide.onclick = function () {
-     next("next");
+     go("next");
 }
 prevSlide.onclick = function () {
-     next("prev");
+     go("prev");
 }
 // to get next slides or previous slides 
-function next(direction) {
+function go(direction) {
      if (direction == "next") {
           index++;
           if (index == totalSlides) {
