@@ -1,0 +1,47 @@
+body {
+    background-color: #B0B0B0;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.slider {
+    width: 800px;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+    display: block;
+}
+
+.item img {
+    width: 100%;
+    display: block;
+}
+
+.item {
+    display: none;
+    position: relative;
+}
+
+.item.active {
+    display: block;
+}
+
+.prev,
+.next {
+    position: fixed;
+    background-color: #29a8e2;
+    padding: 8px 10px;
+    border: white;
+    color: #ffffff;
+    font-size: 30px;
+    top: 50%;
+    cursor: pointer;
+}
+
+.next {
+    right: 283px;
+}
+
+.prev {
+    left: 283px;
+}
