@@ -1,5 +1,6 @@
 // calling images, next button, and prev button 
 let sliders = document.querySelectorAll('.slider');
+
 function slide(slider) {
      let nextSlide = slider.querySelector('.next');
      let prevSlide = slider.querySelector('.prev');
