@@ -9,14 +9,14 @@ function slide(slider) {
      let totalSlides = slides.length;
      let index = 0;
      // when clicking on the next and prev buttons
-     nextSlide.onclick = function () {
+     nextSlide.onclick =  () => {
           go("next");
      }
-     prevSlide.onclick = function () {
+     prevSlide.onclick =  () => {
           go("prev");
      }
      // to get next slides or previous slides 
-     function go(direction) {
+      const go = (direction) => {
           if (direction == "next") {
                index++;
                if (index == totalSlides) {
